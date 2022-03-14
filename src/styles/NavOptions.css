@@ -1,0 +1,20 @@
+.NavOptions{
+    display: flex;
+    background-color: white;
+    justify-content:space-evenly;
+    padding: 2vmax;
+    z-index: 1000;
+}
+.icon>svg{
+    transform: scale(3) translateY(-0.2vmax);
+    fill: rgba(37, 37, 37, 0.322);
+   margin: 5vmax 0 2vmax 2vmax;
+}
+.icon>p{
+    font-size: 1.20vmax;
+   margin:1.75vmax 0 0 0.5vmax;
+   
+}
+.icon:hover{
+    cursor: pointer;
+}
